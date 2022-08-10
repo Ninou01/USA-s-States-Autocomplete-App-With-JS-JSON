@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 60px auto 0;
+    font-size: 25px;
+}
+
+.container [type="search"] {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding: 5px 10px;
+    outline: none;
+    font-size: inherit;
+}
+
+.card {
+    text-align: start;
+    padding: 25px 20px;
+    background-color: #232323;
+    color: rgba(187, 187, 187, 0.729);
+    margin: 5px auto;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card span {
+    color: #318cc6;
+}
+
+.card h6 {
+    font-weight: 100;
+}
+
+
